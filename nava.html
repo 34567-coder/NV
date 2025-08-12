@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NavaVidya Educational Services — Empowering Futures</title>
+  <meta name="description" content="NavaVidya Educational Services — career counselling, admissions guidance, study abroad support, skill development and scholarships based in Vellarada City, Trivandrum." />
+
+  <!-- Tailwind CDN for quick prototype -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--accent:rgb(79,70,229);--muted:#6b7280}
+    html,body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    /* subtle glass card */
+    .glass { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white text-slate-800 leading-relaxed">
+
+  <!-- NAV + LOGO (centered as requested) -->
+  <header class="bg-white/60 sticky top-0 z-40 backdrop-blur-md shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex flex-col items-center">
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-yellow-700">NavaVidya Educational Services</h1>
+        <p class="mt-1 text-slate-600">Empowering Futures, One Student at a Time — Vellarada City, Trivandrum</p>
+      </div>
+      <nav class="mt-4 flex gap-4 text-sm text-slate-600">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#founders" class="hover:text-indigo-600">Founders</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#contact" class="text-white bg-indigo-600 px-3 py-1.5 rounded-lg">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden pt-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div class="py-8">
+        <h2 class="text-4xl sm:text-5xl font-extrabold leading-tight">Open doors to opportunity —<span class="text-indigo-600"> learn, grow, and go further</span></h2>
+        <p class="mt-6 max-w-xl text-lg text-slate-700">At NavaVidya, we craft personalized education and career pathways for students and professionals. From college admissions and study-abroad support to skills training and scholarships — we’re with you every step.</p>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#services" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-indigo-600 text-white font-medium shadow hover:bg-indigo-500 transition">Explore Services</a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-white border border-indigo-200 text-indigo-600 font-medium hover:shadow-sm transition">Book a Consultation</a>
+        </div>
+
+        <div class="mt-6 text-sm text-slate-600">📍 Vellarada City, Trivandrum • 📞 +91 89439 40539</div>
+
+        <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-lg">
+          <div class="p-3 bg-white rounded-xl shadow-sm text-center">
+            <div class="font-semibold">1:1 Counseling</div>
+            <div class="text-xs text-slate-500 mt-1">Personal plans & assessments</div>
+          </div>
+          <div class="p-3 bg-white rounded-xl shadow-sm text-center">
+            <div class="font-semibold">Admissions</div>
+            <div class="text-xs text-slate-500 mt-1">Application & tracking</div>
+          </div>
+          <div class="p-3 bg-white rounded-xl shadow-sm text-center">
+            <div class="font-semibold">Study Abroad</div>
+            <div class="text-xs text-slate-500 mt-1">Visa & pre-departure help</div>
+          </div>
+          <div class="p-3 bg-white rounded-xl shadow-sm text-center">
+            <div class="font-semibold">Scholarships</div>
+            <div class="text-xs text-slate-500 mt-1">Grants & funding support</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="rounded-3xl p-1 shadow-xl" style="background: linear-gradient(135deg,#eef2ff,#ecfeff);">
+          <div class="glass rounded-3xl p-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="p-4 rounded-xl bg-white shadow-sm">
+              <div class="font-semibold text-indigo-700">Career Counseling</div>
+              <div class="text-sm text-slate-500 mt-2">Assessments, mentoring & roadmap planning.</div>
+            </div>
+            <div class="p-4 rounded-xl bg-white shadow-sm">
+              <div class="font-semibold text-indigo-700">Study Abroad</div>
+              <div class="text-sm text-slate-500 mt-2">Top university selection & visa guidance.</div>
+            </div>
+            <div class="p-4 rounded-xl bg-white shadow-sm">
+              <div class="font-semibold text-indigo-700">Skill Development</div>
+              <div class="text-sm text-slate-500 mt-2">Workshops, industry projects & placements.</div>
+            </div>
+            <div class="p-4 rounded-xl bg-white shadow-sm">
+              <div class="font-semibold text-indigo-700">Scholarships</div>
+              <div class="text-sm text-slate-500 mt-2">Search & application assistance.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- soft decorative SVG -->
+        <svg class="absolute -right-12 -bottom-8 w-80 opacity-20" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35" />
+              <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.12" />
+            </linearGradient>
+          </defs>
+          <circle cx="300" cy="300" r="200" fill="url(#g1)" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <section id="services" class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+    <div class="grid lg:grid-cols-3 gap-8 items-start">
+      <div class="lg:col-span-2">
+        <h3 class="text-2xl font-semibold">Our Services</h3>
+        <p class="mt-2 text-slate-600 max-w-2xl">Comprehensive education consultancy tailored to each learner — from early career mapping to international admissions and financial aid.</p>
+
+        <div class="mt-6 grid sm:grid-cols-2 gap-6">
+          <article class="p-6 rounded-2xl bg-white shadow hover:scale-[1.01] transition-transform">
+            <div class="flex items-center gap-4">
+              <div class="p-3 rounded-lg bg-indigo-50">🎯</div>
+              <div>
+                <h4 class="font-semibold">Career Counseling & Guidance</h4>
+                <p class="text-sm text-slate-600 mt-1">One-on-one sessions, psychometric & skills assessment, and long-term planning.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-white shadow hover:scale-[1.01] transition-transform">
+            <div class="flex items-center gap-4">
+              <div class="p-3 rounded-lg bg-indigo-50">📚</div>
+              <div>
+                <h4 class="font-semibold">College & University Admissions</h4>
+                <p class="text-sm text-slate-600 mt-1">Course & college selection, application preparation, essay support and tracking.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-white shadow hover:scale-[1.01] transition-transform">
+            <div class="flex items-center gap-4">
+              <div class="p-3 rounded-lg bg-indigo-50">✈️</div>
+              <div>
+                <h4 class="font-semibold">Study Abroad Consultancy</h4>
+                <p class="text-sm text-slate-600 mt-1">University shortlists, SOPs, visa documentation and pre-departure orientation.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-white shadow hover:scale-[1.01] transition-transform">
+            <div class="flex items-center gap-4">
+              <div class="p-3 rounded-lg bg-indigo-50">💬</div>
+              <div>
+                <h4 class="font-semibold">Skill Development & Training</h4>
+                <p class="text-sm text-slate-600 mt-1">Soft skills, communication, industry-led workshops and internship readiness.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-white shadow hover:scale-[1.01] transition-transform">
+            <div class="flex items-center gap-4">
+              <div class="p-3 rounded-lg bg-indigo-50">🎁</div>
+              <div>
+                <h4 class="font-semibold">Scholarship & Financial Aid</h4>
+                <p class="text-sm text-slate-600 mt-1">Identify funding opportunities and receive application support for scholarships and grants.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-white shadow hover:scale-[1.01] transition-transform">
+            <div class="flex items-center gap-4">
+              <div class="p-3 rounded-lg bg-indigo-50">💼</div>
+              <div>
+                <h4 class="font-semibold">Internships & Placements</h4>
+                <p class="text-sm text-slate-600 mt-1">Industry connections, internship placements and interview coaching.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <aside class="p-6 bg-white rounded-2xl shadow">
+        <h4 class="font-semibold">Quick Facts</h4>
+        <ul class="mt-3 text-sm text-slate-600 space-y-2">
+          <li><strong>Founded:</strong> 2024</li>
+          <li><strong>Founders:</strong> Abin AG, Akshay Raju, Jithu P Jose</li>
+          <li><strong>Location:</strong> Vellarada City, Trivandrum</li>
+          <li><strong>Students Counseled:</strong> 500+</li>
+        </ul>
+
+        <div class="mt-6">
+          <a href="#contact" class="block text-center px-4 py-2 bg-indigo-600 text-white rounded-lg">Book a Free Consult</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FOUNDERS -->
+  <section id="founders" class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+    <h3 class="text-2xl font-semibold">Meet the Founders</h3>
+    <p class="text-slate-600 mt-2 max-w-2xl">Experienced educators and counselors leading NavaVidya with a student-first approach.</p>
+
+    <div class="mt-6 grid sm:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-6 shadow-sm">
+        <div class="h-20 w-20 rounded-full bg-indigo-100 flex items-center justify-center font-bold text-indigo-700 text-xl">AA</div>
+        <h4 class="mt-4 font-semibold">Abin AG</h4>
+        <div class="text-sm text-slate-600">Co-founder & Lead Counselor</div>
+        <p class="mt-3 text-sm text-slate-500">Expert in admissions strategy and career mapping with hands-on counseling experience.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-sm">
+        <div class="h-20 w-20 rounded-full bg-indigo-100 flex items-center justify-center font-bold text-indigo-700 text-xl">AR</div>
+        <h4 class="mt-4 font-semibold">Akshay Raju</h4>
+        <div class="text-sm text-slate-600">Co-founder & Operations</div>
+        <p class="mt-3 text-sm text-slate-500">Focuses on partnerships, process design and institutional relations.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 shadow-sm">
+        <div class="h-20 w-20 rounded-full bg-indigo-100 flex items-center justify-center font-bold text-indigo-700 text-xl">JJ</div>
+        <h4 class="mt-4 font-semibold">Jithu P Jose</h4>
+        <div class="text-sm text-slate-600">Co-founder & International Counsel</div>
+        <p class="mt-3 text-sm text-slate-500">Specialist in study-abroad pathways, visas and international admissions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="bg-indigo-50 py-12">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <h3 class="text-2xl font-semibold">What Students Say</h3>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <blockquote class="bg-white p-6 rounded-2xl shadow">
+          <p class="text-slate-700">“NavaVidya helped me get into my dream university abroad. The guidance was professional and very supportive throughout the process.”</p>
+          <footer class="mt-4 text-sm text-slate-500">— Rahul S., Trivandrum</footer>
+        </blockquote>
+
+        <blockquote class="bg-white p-6 rounded-2xl shadow">
+          <p class="text-slate-700">“From career counseling to admission assistance, NavaVidya was with me at every step. Highly recommended!”</p>
+          <footer class="mt-4 text-sm text-slate-500">— Anjali M., Kollam</footer>
+        </blockquote>
+      </div>
+
+      <div class="mt-6 flex gap-3">
+        <a href="#contact" class="px-4 py-2 bg-indigo-600 text-white rounded-lg">Get Help</a>
+        <a href="#services" class="px-4 py-2 border border-indigo-600 text-indigo-600 rounded-lg">See Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ & RESOURCES -->
+  <section class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+    <div class="grid lg:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Frequently Asked Questions</h3>
+        <div class="mt-4 space-y-3">
+          <details class="p-4 bg-white rounded-lg shadow-sm">
+            <summary class="font-medium">How does the counseling process work?</summary>
+            <p class="mt-2 text-sm text-slate-600">We start with an assessment, follow with goal setting, then build a personalized roadmap that includes college shortlists, test prep, and application timelines.</p>
+          </details>
+
+          <details class="p-4 bg-white rounded-lg shadow-sm">
+            <summary class="font-medium">Do you assist with visas for study abroad?</summary>
+            <p class="mt-2 text-sm text-slate-600">Yes — we assist with documentation, visa interview prep, and pre-departure orientation to ensure a smooth transition.</p>
+          </details>
+
+          <details class="p-4 bg-white rounded-lg shadow-sm">
+            <summary class="font-medium">Are your sessions online?</summary>
+            <p class="mt-2 text-sm text-slate-600">We offer both in-person sessions in Trivandrum and remote counseling via video calls for students across India and abroad.</p>
+          </details>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-2xl font-semibold">Resources & Articles</h3>
+        <div class="mt-4 space-y-4">
+          <article class="p-4 bg-white rounded-lg shadow-sm">
+            <h4 class="font-semibold">Top 10 Tips to Choose a University</h4>
+            <p class="text-sm text-slate-600 mt-1">A quick guide to evaluating programs, faculty, and placement records.</p>
+          </article>
+
+          <article class="p-4 bg-white rounded-lg shadow-sm">
+            <h4 class="font-semibold">Scholarship Application Checklist</h4>
+            <p class="text-sm text-slate-600 mt-1">Documents and timelines to maximize your chances for funding.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT with FORM (plain JS placeholder) -->
+  <section id="contact" class="bg-gradient-to-b from-indigo-700 to-indigo-600 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      <div>
+        <h3 class="text-3xl font-semibold">Ready to start your journey?</h3>
+        <p class="mt-3 text-indigo-100 max-w-lg">Book a consultation or drop us an email — we’ll craft a personalized plan for you.</p>
+
+        <ul class="mt-6 text-sm space-y-2 text-indigo-100">
+          <li><strong>Address:</strong> Vellarada City, Trivandrum, Kerala</li>
+          <li><strong>Phone:</strong> +91 89439 40539</li>
+          <li><strong>Email:</strong> hello@nava-vidya.example</li>
+        </ul>
+
+        <div class="mt-6 flex gap-3">
+          <a href="tel:+918943940539" class="inline-block px-4 py-2 bg-white text-indigo-700 font-medium rounded-md">Call Now</a>
+          <a href="#contact-form" class="inline-block px-4 py-2 border border-white text-white rounded-md">Book Consultation</a>
+        </div>
+      </div>
+
+      <div>
+        <form id="contact-form" class="bg-white text-slate-800 rounded-2xl p-6 shadow-lg" onsubmit="return handleContact(event)">
+          <div class="grid grid-cols-1 gap-3">
+            <input id="name" class="px-4 py-3 rounded-lg border" placeholder="Full name" required />
+            <input id="email" class="px-4 py-3 rounded-lg border" type="email" placeholder="Email" required />
+            <input id="phone" class="px-4 py-3 rounded-lg border" placeholder="Phone" />
+            <textarea id="message" class="px-4 py-3 rounded-lg border" rows="4" placeholder="How can we help?" required></textarea>
+            <div class="flex justify-end">
+              <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-lg">Send Message</button>
+            </div>
+          </div>
+          <p id="form-msg" class="text-sm mt-3"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-200 py-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+
+        <p class="text-sm">NavaVidya Educational Services — Guiding your educational journey with trust, care, and expertise.</p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Quick Links</h4>
+        <ul class="mt-3 text-sm space-y-2 text-slate-400">
+          <li><a href="#services" class="hover:text-white">Services</a></li>
+          <li><a href="#founders" class="hover:text-white">Founders</a></li>
+          <li><a href="#testimonials" class="hover:text-white">Testimonials</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold">Contact</h4>
+        <p class="mt-3 text-sm text-slate-400">Vellarada City, Trivandrum • +91 89439 40539</p>
+        <div class="mt-3 text-sm text-slate-400">© <span id="year"></span> NavaVidya. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // simple form placeholder — integrate Netlify/EmailJS or your backend for production
+    function handleContact(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const msg = document.getElementById('form-msg');
+      if(!name||!email||!message){ msg.textContent = 'Please fill all required fields.'; msg.className='text-sm text-red-400'; return false }
+      msg.textContent = 'Sending...'; msg.className='text-sm text-indigo-100'
+      setTimeout(()=>{
+        msg.textContent = 'Message sent! We will contact you shortly.'; msg.className='text-sm text-green-200';
+        document.getElementById('contact-form').reset();
+      },900);
+      return false;
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
